@@ -1,0 +1,4 @@
+<launch>
+  <node name="user_info_driver" pkg="exercise_three" type="user_info_driver.py" output="screen" launch-prefix = "gnome-terminal -e"/>
+  <node name="data_processing" pkg="exercise_three" type="data_processing.py" output="screen" launch-prefix = "gnome-terminal -e"/>
+</launch>
